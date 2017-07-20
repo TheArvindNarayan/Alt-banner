@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+    
+    	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        
+    	<title>Alt Banner</title>
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+        
+        <style type="text/css">
+		
+			body {
+			
+				margin: 100px;
+				
+			}
+		
+		</style>
+        
+        <!-- ******************************************************** -->
+        <!-- BEGIN CODE TO COPY INTO THE HEAD SECTION OF YOUR WEBPAGE -->
+        <!-- ******************************************************** -->
+        
+        <link rel="stylesheet" href="css/style.css" type="text/css" />
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js" type="text/javascript"></script>
+        <script src="js/app.js" type="text/javascript"></script>
+        
+        <script type="text/javascript">
+			
+			/* ********************* */
+			/* BEGIN BANNER SETTINGS */
+			/* ********************* */
+			var settings = {
+				
+				/* The image width */
+				width: 750,
+				
+				/* The image height */
+				height: 250,
+				
+				/* The amount of columns to use for the square grid */ 
+				cols: 7,
+				
+				/* The amount of rows to use for the square grid */ 
+				rows: 3, 
+				
+				/* Choose to autoplay the banner, true/false */
+				autoPlay: true,
+				
+				/* Choose to randomize the slide order, true/false */
+				randomizeSlides: true,
+				
+				/* The "break apart" square padding */
+				thumbSpacing: 10,
+				
+				/* The delay between slide transitions in milliseconds if autopay is set to true */
+				slideDelay: 4000,
+				
+				/* Choose to use arrow buttons, true/false */ 
+				useArrows: true,
+				
+				/* The padding for the arrow buttons in relation to the bottom right and bottom left corners of the banner */ 
+				arrowPadding: 5, 
+				
+				/* Options are "whiteFlash", "basicFade", "whiteFlashRandom", "basicFadeRandom", "colorsRandom" */
+				transitionType: "colorsRandom",
+				
+				/* For slides that are hyperlinked, options are "parent" (same window) and "blank" (new window) */
+				linkTarget: "blank"
+				
+			};
+			
+			/* ************************ */
+			/* BEGIN DEVELOPER SETTINGS */
+			/* ************************ */
+			jQuery(document).ready(function() {
+				
+				jQuery.blades(settings);
+				settings = null;
+				
+			});
+		
+		</script>
+        
+        <!-- ****************************************************** -->
+        <!-- END CODE TO COPY INTO THE HEAD SECTION OF YOUR WEBPAGE -->
+        <!-- ****************************************************** -->
+        
+	</head>
+    
+    <body>
+        
+        <!-- ******************************************************** -->
+        <!-- BEGIN CODE TO COPY INTO THE BODY SECTION OF YOUR WEBPAGE -->
+        <!-- ******************************************************** -->
+		<div id="cj-banner">
+            
+        	<ul>
+            	
+                <!-- ***************** -->
+                <!-- BEGIN BANNER ITEM -->
+                <!-- ***************** -->
+                
+                <!-- "title" = the url of your banner image -->
+            	<li title="https://unsplash.it/500/1500/?random">
+                    
+                    <!-- "class" options are "align-left" and "align-right", thsese are the text-align options -->
+                    <!-- "title" attribute is optional.  If added it will link the entire slide to the url entered -->
+                	<ul class="align-left" title="http://www.google.com">
+                    	
+                        <!-- ********************************* -->
+                        <!-- DELETE THE LIST ITEMS FOR NO TEXT -->
+                        <!-- ********************************* -->
+                        
+                        <!-- The "class" here stores the x (first value) and y (second value) position of your text -->
+                        <!-- The style properties are for unique background and text colors per slogan -->
+                    	<li class="20x100" style="background-color: #000000; color: #FFFFFF">BLADES Banner - jQuery</li>
+                        <li class="20x155" style="background-color: #FFFFFF; color: #000000">Make an Impression</li>
+                        
+                    </ul>
+                
+                </li>
+                <!-- *************** -->
+                <!-- END BANNER ITEM -->
+                <!-- *************** -->
+                
+                <li title="https://unsplash.it/500/1500/?random">
+                	
+                	<ul class="align-right">
+                    	
+                    	<li class="20x20" style="background-color: #000000; color: #FFFFFF">Dazzle your Customers with BLADES</li>
+                        <li class="20x75" style="background-color: #FFFFFF; color: #000000">A Unique jQuery Banner</li>
+                        
+                    </ul>
+                
+                </li>
+                
+                <li title="https://unsplash.it/500/1500/?random">
+                	
+                	<ul class="align-left" title="http://codecanyon.net/user/CodingJack">
+                    	
+                    	<li class="20x20" style="background-color: #000000; color: #FFFFFF">Easy to Customize</li>
+                        <li class="20x75" style="background-color: #FFFFFF; color: #000000">Video Tutorials Included</li>
+                        
+                    </ul>
+                
+                </li>
+
+                <li title="https://unsplash.it/500/1500/?random">
+                	
+                	<ul class="align-right">
+                    	
+                    	<li class="20x20" style="background-color: #000000; color: #FFFFFF">Brand New Banner From CrackerJack</li>
+                        <li class="20x75" style="background-color: #FFFFFF; color: #000000"><a href="http://codecanyon.net/user/CodingJack" target="_blank">Click Here to View Portfolio</a></li>
+                        
+                    </ul>
+                
+                </li>
+                
+            </ul>
+            
+            <!-- If JavaScript is disabled, we'll just display the first image -->
+            <noscript>
+            
+            	<img src="https://unsplash.it/500/1500/?random" width="700" height="300" alt="BLADES jQuery Banner Rotator" />
+            
+            </noscript>
+        
+        </div>
+        
+        <!-- ****************************************************** -->
+        <!-- END CODE TO COPY INTO THE BODY SECTION OF YOUR WEBPAGE -->
+        <!-- ****************************************************** -->
+        
+    
+    </body>
+    
+    
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
